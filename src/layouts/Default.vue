@@ -8,7 +8,7 @@
           class="font-nav text-xl flex items-center flex-shrink-0 text-white mr-6"
         >
           <span class="font-bold tracking-tight">Aaron</span>
-          <span class="font-thin tracking-tight">CQL</span>
+          <span class="font-thin tracking-tighter">CQL</span>
         </div>
         <div class="block md:hidden">
           <button
@@ -71,11 +71,11 @@ export default {
           to: "#"
         },
         {
-          label: "Blog",
+          label: "Contact",
           to: "#"
         },
         {
-          label: "Contact",
+          label: "Blog",
           to: "#"
         }
       ]
