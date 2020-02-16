@@ -3,7 +3,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Open Sans"]
+        sans: ["Open\\ Sans"],
+        nav: ["Raleway"],
+        title: ["Nunito"]
       }
     }
   },

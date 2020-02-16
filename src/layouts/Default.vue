@@ -1,12 +1,14 @@
 <template>
   <div class="layout">
-    <header class="header">
+    <header class="header z-50">
       <nav
-        class="flex items-center justify-between flex-wrap bg-indigo-700 py-4 px-6"
+        class="flex items-center justify-between flex-wrap bg-teal-700 py-3 px-6"
       >
-        <div class="flex items-center flex-shrink-0 text-white mr-6">
-          <span class="font-bold text-xl tracking-tight">Aaron</span>
-          <span class="font-thin text-xl tracking-tight">CQL</span>
+        <div
+          class="font-nav text-xl flex items-center flex-shrink-0 text-white mr-6"
+        >
+          <span class="font-bold tracking-tight">Aaron</span>
+          <span class="font-thin tracking-tight">CQL</span>
         </div>
         <div class="block md:hidden">
           <button
@@ -27,30 +29,20 @@
           :class="isNavExpanded ? 'block' : 'hidden'"
           class="w-full flex-grow md:flex md:text-right md:items-center md:w-auto"
         >
-          <div class="text-md font-semibold md:flex-grow">
+          <div class="md:flex-grow">
             <a
-              href="#responsive-header"
-              class="block mt-4 md:inline-block md:mt-0 text-teal-200 hover:text-white mr-4"
+              v-for="link in navLinks"
+              :key="link.label"
+              :href="link.to"
+              class="block text-md font-semibold font-nav text-teal-100 mt-4 md:inline-block md:mt-0 hover:text-white ml-0 md:ml-6"
             >
-              Docs
-            </a>
-            <a
-              href="#responsive-header"
-              class="block mt-4 md:inline-block md:mt-0 text-teal-200 hover:text-white mr-4"
-            >
-              Examples
-            </a>
-            <a
-              href="#responsive-header"
-              class="block mt-4 md:inline-block md:mt-0 text-teal-200 hover:text-white mr-4"
-            >
-              Blog
+              {{ link.label }}
             </a>
           </div>
         </div>
       </nav>
     </header>
-    <div class="max-w-4xl md:px-8 px-2 pt-6 pb-4 mx-auto">
+    <div class="max-w-4xl mx-auto">
       <slot />
     </div>
   </div>
@@ -68,7 +60,25 @@ query {
 export default {
   data: function() {
     return {
-      isNavExpanded: false
+      isNavExpanded: false,
+      navLinks: [
+        {
+          label: "About",
+          to: "#"
+        },
+        {
+          label: "Projects",
+          to: "#"
+        },
+        {
+          label: "Blog",
+          to: "#"
+        },
+        {
+          label: "Contact",
+          to: "#"
+        }
+      ]
     };
   },
   methods: {
@@ -78,3 +88,9 @@ export default {
   }
 };
 </script>
+
+<style>
+body {
+  @apply bg-gray-300;
+}
+</style>
