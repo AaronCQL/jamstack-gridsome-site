@@ -7,6 +7,11 @@ module.exports = {
         nav: ["Raleway"],
         title: ["Nunito"],
       },
+      colors: {
+        text: "#21171B",
+        primary: "#7E94D6",
+        secondary: "#354677",
+      },
     },
   },
   variants: {},

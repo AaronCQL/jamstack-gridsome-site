@@ -1,18 +1,16 @@
 <template>
   <div class="layout">
-    <header class="header z-50">
+    <header class="header">
       <nav
-        class="flex items-center justify-between flex-wrap bg-teal-700 py-3 px-6"
+        class="fixed top-0 w-full flex items-center justify-between flex-wrap bg-gray-100 py-1 px-6 lg:px-32 md:px-12 border-b border-secondary shadow"
       >
-        <div
-          class="font-nav text-xl flex items-center flex-shrink-0 text-white mr-6"
-        >
-          <span class="font-bold tracking-tight">Aaron</span>
-          <span class="font-thin tracking-tighter">CQL</span>
+        <div class="font-nav text-3xl flex items-center flex-shrink-0 mr-6">
+          <span class="font-bold">Aaron</span>
+          <span class="font-thin">CQL</span>
         </div>
         <div class="block md:hidden">
           <button
-            class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+            class="flex items-center px-3 py-2 border rounded text-secondary border-secondary"
             @click="toggleNavbar"
           >
             <svg
@@ -34,7 +32,7 @@
               v-for="link in navLinks"
               :key="link.label"
               :href="link.to"
-              class="block text-md font-semibold font-nav text-teal-100 mt-4 md:inline-block md:mt-0 hover:text-white ml-0 md:ml-6"
+              class="block text-md font-semibold font-nav my-4 md:inline-block md:my-0 hover:text-primary ml-0 md:ml-6"
             >
               {{ link.label }}
             </a>
@@ -42,7 +40,7 @@
         </div>
       </nav>
     </header>
-    <div class="max-w-4xl mx-auto">
+    <div class="max-w-3xl mx-auto mt-12">
       <slot />
     </div>
   </div>
@@ -91,6 +89,7 @@ export default {
 
 <style>
 body {
-  @apply bg-gray-300;
+  @apply text-text;
+  @apply bg-gray-100;
 }
 </style>

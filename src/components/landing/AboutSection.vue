@@ -1,14 +1,20 @@
 <template>
   <div>
-    <h1 class="text-4xl md:text-5xl text-green-600 font-title">
-      About Me
+    <h1 class="text-5xl text-secondary font-title text-center my-16">
+      Hello.
     </h1>
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-      excepturi labore tempore expedita, et iste tenetur suscipit explicabo!
-      Dolores, aperiam non officia eos quod asperiores
-    </p>
+    <div
+      class="shadow-md hover:shadow-lg font-title p-5 max-w-lg rounded-lg mx-auto bg-white"
+    >
+      <p class="text-3xl font-semibold">Aaron Choo</p>
+      <div class="text-xl text-gray-700 font-light">
+        <p>Computer Science Student</p>
+        <p>Software Engineer Intern</p>
+        <p>Ex-Teaching Assistant</p>
+        <p>Private Tutor</p>
+      </div>
+    </div>
   </div>
 </template>
 

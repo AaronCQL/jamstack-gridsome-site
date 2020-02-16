@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-4xl md:text-5xl text-green-200 font-title">
+    <h1 class="text-4xl md:text-5xl text-secondary font-title">
       Projects
     </h1>
 
