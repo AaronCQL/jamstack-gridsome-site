@@ -64,28 +64,28 @@ export default {
       navLinks: [
         {
           label: "About",
-          to: "#"
+          to: "#",
         },
         {
           label: "Projects",
-          to: "#"
+          to: "#",
         },
         {
           label: "Contact",
-          to: "#"
+          to: "#",
         },
         {
           label: "Blog",
-          to: "#"
-        }
-      ]
+          to: "#",
+        },
+      ],
     };
   },
   methods: {
     toggleNavbar() {
       this.isNavExpanded = !this.isNavExpanded;
-    }
-  }
+    },
+  },
 };
 </script>
 

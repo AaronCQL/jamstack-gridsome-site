@@ -21,10 +21,10 @@ export default {
   components: {
     AboutSection,
     ProjectSection,
-    ContactSection
+    ContactSection,
   },
   metaInfo: {
-    title: "Aaron Choo | Student"
-  }
+    title: "Aaron Choo | Student",
+  },
 };
 </script>

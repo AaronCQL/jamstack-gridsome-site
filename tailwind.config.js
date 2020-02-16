@@ -5,10 +5,10 @@ module.exports = {
       fontFamily: {
         sans: ["Open\\ Sans"],
         nav: ["Raleway"],
-        title: ["Nunito"]
-      }
-    }
+        title: ["Nunito"],
+      },
+    },
   },
   variants: {},
-  plugins: []
+  plugins: [],
 };
