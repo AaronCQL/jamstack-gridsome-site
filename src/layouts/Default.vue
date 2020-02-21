@@ -32,7 +32,7 @@
               v-for="link in navLinks"
               :key="link.label"
               :href="link.to"
-              class="block text-md font-semibold font-nav my-4 md:inline-block md:my-0 hover:text-primary ml-0 md:ml-6"
+              class="block text-md font-semibold font-nav md:inline-block my-4 md:my-0 hover:text-primary ml-0 md:ml-6"
             >
               {{ link.label }}
             </a>
@@ -40,7 +40,7 @@
         </div>
       </nav>
     </header>
-    <div class="max-w-3xl mx-auto mt-12">
+    <div class="max-w-3xl mx-auto">
       <slot />
     </div>
   </div>

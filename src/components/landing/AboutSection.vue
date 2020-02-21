@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="flex flex-col justify-center">
     <h1
-      class="text-5xl text-secondary font-title text-center my-16 hidden md:block"
+      class="text-5xl text-secondary font-title text-center pb-10 hidden md:block"
     >
       Hello.
     </h1>
