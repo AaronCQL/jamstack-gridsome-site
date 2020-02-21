@@ -7,7 +7,7 @@
     </h1>
 
     <div
-      class="transition-shadow duration-150 ease-in-out md:shadow-md md:hover:shadow-lg font-title p-5 max-w-lg rounded-lg mx-auto md:bg-white"
+      class="transition-shadow md:border duration-150 ease-in-out md:shadow-md md:hover:shadow-lg font-title p-5 max-w-lg rounded-lg mx-auto md:bg-white"
     >
       <div class="md:flex">
         <g-image

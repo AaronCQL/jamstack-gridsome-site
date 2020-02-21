@@ -1,8 +1,8 @@
 <template>
-  <Layout>
-    <about-section class="min-h-screen" />
-    <project-section class="px-2 md:px-6 pb-10" />
-    <contact-section class="px-2 md:px-6 pb-10" />
+  <Layout class="bg-white">
+    <about-section class="min-h-screen max-w-3xl mx-auto" />
+    <project-section class="px-2 md:px-6 pb-10 max-w-3xl mx-auto" />
+    <contact-section class="px-2 md:px-6 pb-10 max-w-3xl mx-auto" />
   </Layout>
 </template>
 

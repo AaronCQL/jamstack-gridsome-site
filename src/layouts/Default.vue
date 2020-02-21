@@ -40,7 +40,7 @@
         </div>
       </nav>
     </header>
-    <div class="max-w-3xl mx-auto">
+    <div>
       <slot />
     </div>
   </div>
@@ -86,10 +86,3 @@ export default {
   },
 };
 </script>
-
-<style>
-body {
-  @apply text-text;
-  @apply bg-gray-100;
-}
-</style>
