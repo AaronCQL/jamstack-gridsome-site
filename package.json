@@ -16,6 +16,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "gridsome": "^0.7.0",
     "prettier": "^1.19.1",
+    "typeface-gloria-hallelujah": "0.0.72",
     "typeface-josefin-sans": "0.0.75",
     "typeface-merriweather-sans": "0.0.72",
     "typeface-nunito": "^1.1.3",

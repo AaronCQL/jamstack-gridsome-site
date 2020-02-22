@@ -1,9 +1,9 @@
 <template>
   <Layout class="bg-white">
     <landing-section class="min-h-screen max-w-3xl mx-auto" />
-    <about-section class="px-2 md:px-6 pb-10 max-w-3xl mx-auto" />
-    <project-section class="px-2 md:px-6 pb-10 max-w-3xl mx-auto" />
-    <contact-section class="px-2 md:px-6 pb-10 max-w-3xl mx-auto" />
+    <about-section class="px-2 md:px-6 pb-12 max-w-3xl mx-auto" />
+    <project-section class="px-2 md:px-6 pb-12 max-w-3xl mx-auto" />
+    <contact-section class="px-2 md:px-6 pb-12 max-w-3xl mx-auto" />
   </Layout>
 </template>
 

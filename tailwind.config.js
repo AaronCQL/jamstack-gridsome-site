@@ -6,6 +6,7 @@ module.exports = {
         sans: ["Open\\ Sans"],
         nav: ["Raleway"],
         title: ["Nunito"],
+        handwriting: ["Gloria\\ Hallelujah"],
       },
       colors: {
         text: "#21171B",

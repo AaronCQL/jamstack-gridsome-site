@@ -4,7 +4,7 @@
       Personal Projects
     </h1>
 
-    <project-entry class="mt-4" title="Tree Secure (Mobile App)">
+    <project-entry title="Tree Secure (Mobile App)">
       <p>
         A not-so-serious cross-platform mobile app to spread the awareness of
         the heritage trees in Singapore. Made with Flutter and developed in 24

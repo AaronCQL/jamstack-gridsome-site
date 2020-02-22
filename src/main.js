@@ -5,6 +5,7 @@
 
 require("typeface-raleway");
 require("typeface-nunito");
+require("typeface-gloria-hallelujah");
 
 import DefaultLayout from "~/layouts/Default.vue";
 
