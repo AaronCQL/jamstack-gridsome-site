@@ -4,7 +4,7 @@
       Personal Projects
     </h1>
 
-    <project-entry class="mt-4" title="Tree Secure">
+    <project-entry class="mt-4" title="Tree Secure (Mobile App)">
       <p>
         A not-so-serious cross-platform mobile app to spread the awareness of
         the heritage trees in Singapore. Made with Flutter and developed in 24
@@ -12,7 +12,7 @@
       </p>
     </project-entry>
 
-    <project-entry class="mt-4" title="PixiesPixel">
+    <project-entry class="mt-4" title="PixiesPixel (Game)">
       <p>
         A cross-platform realtime online multiplayer free-for-all 2D platformer
         built using Godot and GDScript. Achieved Honourable Mention (top 4/243
@@ -20,7 +20,7 @@
       </p>
     </project-entry>
 
-    <project-entry class="mt-4" title="CS2100 Learning Tool">
+    <project-entry class="mt-4" title="Computer Organisation Tool (Website)">
       <p>
         A learning tool for CS2100 made for the web browser. Tools include
         number base converter, IEEE 754 single-precision format converter, truth

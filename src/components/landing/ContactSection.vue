@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-4xl md:text-5xl text-secondary font-title">
+    <h1 class="text-4xl text-secondary font-title font-semibold">
       Contact Me
     </h1>
 
