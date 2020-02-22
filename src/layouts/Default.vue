@@ -2,7 +2,7 @@
   <div class="layout">
     <header class="header">
       <nav
-        class="fixed top-0 w-full flex items-center justify-between flex-wrap bg-gray-100 py-1 px-6 lg:px-32 md:px-12 border-b border-secondary shadow"
+        class="fixed top-0 w-full flex items-center justify-between flex-wrap bg-gray-100 py-1 px-6 lg:px-32 md:px-12 border-b border-secondary"
       >
         <div class="font-nav text-3xl flex items-center flex-shrink-0 mr-6">
           <span class="font-bold">Aaron</span>
@@ -43,6 +43,9 @@
     <div>
       <slot />
     </div>
+    <footer class="text-sm text-gray-700 border-t py-3 text-center bg-gray-100">
+      Copyright &copy; 2020 Aaron Choo
+    </footer>
   </div>
 </template>
 
