@@ -7,8 +7,6 @@ require("typeface-raleway");
 require("typeface-nunito");
 require("typeface-gloria-hallelujah");
 
-import "~/styles/global.css";
-
 import DefaultLayout from "~/layouts/Default.vue";
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
