@@ -9,3 +9,4 @@
   2. Add the line `require("typeface-XXX");` in `main.js`
   3. Add the font name into `tailwind.config.js`
 - Icons loaded using FontAwesome, check the [Gridsome guide](https://gridsome.org/docs/assets-svg/#fontawesome-svg-icons)
+  - Add the PurgeCSS whitelist for the FontAwesome styles in the `gridsome.config.js` file in order for built files to be correct
