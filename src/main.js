@@ -8,10 +8,13 @@ require("typeface-josefin-sans");
 require("typeface-gloria-hallelujah");
 
 import "~/styles/global.css";
-
+import VueScrollTo from "vue-scrollto";
 import DefaultLayout from "~/layouts/Default.vue";
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
+  Vue.use(VueScrollTo, {
+    offset: -60,
+  });
 }

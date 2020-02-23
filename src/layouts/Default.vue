@@ -4,10 +4,15 @@
       <nav
         class="fixed top-0 w-full flex items-center justify-between flex-wrap bg-gray-100 py-1 px-6 lg:px-32 md:px-12 border-b border-secondary"
       >
-        <div class="font-nav text-3xl flex items-center flex-shrink-0 mr-6">
+        <a
+          href="#"
+          v-scroll-to="'#landing'"
+          @click="isNavExpanded = false"
+          class="text-black font-nav text-3xl flex items-center flex-shrink-0 mr-6"
+        >
           <span class="font-bold">Aaron</span>
           <span class="font-thin">CQL</span>
-        </div>
+        </a>
         <div class="block md:hidden">
           <button
             class="flex items-center px-3 py-2 border rounded text-secondary border-secondary"
@@ -32,7 +37,9 @@
               v-for="link in navLinks"
               :key="link.label"
               :href="link.to"
-              class="block text-md font-semibold font-nav md:inline-block my-4 md:my-0 ml-0 md:ml-6 text-gray-700"
+              v-scroll-to="link.to"
+              @click="isNavExpanded = false"
+              class="block text-md font-semibold font-nav md:inline-block my-4 md:my-0 ml-0 md:ml-6 text-black"
             >
               {{ link.label }}
             </a>
@@ -67,15 +74,15 @@ export default {
       navLinks: [
         {
           label: "About",
-          to: "#",
+          to: "#about",
         },
         {
           label: "Projects",
-          to: "#",
+          to: "#projects",
         },
         {
           label: "Contact",
-          to: "#",
+          to: "#contact",
         },
         {
           label: "Blog",

@@ -1,9 +1,18 @@
 <template>
   <Layout class="bg-white">
-    <landing-section class="min-h-screen max-w-3xl mx-auto" />
-    <about-section class="px-2 md:px-6 pb-12 max-w-3xl mx-auto" />
-    <project-section class="px-2 md:px-6 pb-12 max-w-3xl mx-auto" />
-    <contact-section class="px-2 md:px-6 pb-12 max-w-3xl mx-auto" />
+    <landing-section
+      id="landing"
+      class="min-h-screen max-w-3xl mx-auto py-24"
+    />
+    <about-section id="about" class="px-2 md:px-6 pb-12 max-w-3xl mx-auto" />
+    <project-section
+      id="projects"
+      class="px-2 md:px-6 pb-12 max-w-3xl mx-auto"
+    />
+    <contact-section
+      id="contact"
+      class="px-2 md:px-6 pb-12 max-w-3xl mx-auto"
+    />
   </Layout>
 </template>
 
