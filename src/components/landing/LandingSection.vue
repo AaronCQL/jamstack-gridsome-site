@@ -27,12 +27,32 @@
         </div>
       </div>
     </div>
+    <div class="flex justify-center md:pt-12">
+      <a href="https://github.com/AaronCQL">
+        <github />
+      </a>
+      <a class="mx-3" href="https://www.linkedin.com/in/aaroncql/">
+        <linkedin />
+      </a>
+      <a href="mailto:choozy.aaron@gmail.com">
+        <gmail />
+      </a>
+    </div>
   </div>
 </template>
 
 <script>
+import Github from "~/assets/logos/Github.svg";
+import Linkedin from "~/assets/logos/Linkedin.svg";
+import Gmail from "~/assets/logos/Gmail.svg";
+
 export default {
   name: "LandingSection",
+  components: {
+    Github,
+    Linkedin,
+    Gmail,
+  },
 };
 </script>
 
