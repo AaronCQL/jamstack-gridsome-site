@@ -6,10 +6,10 @@
 
     <p>
       Hello! I am Aaron Choo, a second year computer science student at the
-      <my-link href="https://www.comp.nus.edu.sg/programmes/ug/cs/">
-        National University of Singapore (NUS)</my-link
+      <a href="https://www.comp.nus.edu.sg/programmes/ug/cs/">
+        National University of Singapore (NUS)</a
       >. I currently work part-time as a Software Engineer Intern at
-      <my-link href="https://qashier.co/">Qashier</my-link>.
+      <a href="https://qashier.co/">Qashier</a>.
     </p>
     <p class="mt-4">
       Scroll down to see some projects I have made since starting university.
@@ -19,13 +19,8 @@
 </template>
 
 <script>
-import MyLink from "~/components/MyLink.vue";
-
 export default {
   name: "AboutSection",
-  components: {
-    MyLink,
-  },
 };
 </script>
 

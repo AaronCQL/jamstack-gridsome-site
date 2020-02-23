@@ -32,7 +32,7 @@
               v-for="link in navLinks"
               :key="link.label"
               :href="link.to"
-              class="block text-md font-semibold font-nav md:inline-block my-4 md:my-0 hover:text-primary ml-0 md:ml-6"
+              class="block text-md font-semibold font-nav md:inline-block my-4 md:my-0 ml-0 md:ml-6 text-gray-700"
             >
               {{ link.label }}
             </a>
