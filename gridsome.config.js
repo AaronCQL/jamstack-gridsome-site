@@ -10,12 +10,6 @@ module.exports = {
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss",
-      options: {
-        purgeConfig: {
-          whitelist: ["svg-inline--fa"],
-          // whitelistPatterns: [/shiki/, /fa-$/],
-        },
-      },
     },
   ],
 };

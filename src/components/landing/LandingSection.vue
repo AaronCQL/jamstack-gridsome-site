@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    <div class="text-center md:mt-24 text-4xl text-secondary">
+    <!-- <div class="text-center md:mt-24 text-4xl text-secondary">
       <a
         class="transition duration-150 ease-in-out mx-4 hover:text-primary"
         href="https://github.com/AaronCQL"
@@ -46,7 +46,7 @@
       >
         <font-awesome :icon="['fas', 'file-alt']" />
       </a>
-    </div>
+    </div> -->
   </div>
 </template>
 
