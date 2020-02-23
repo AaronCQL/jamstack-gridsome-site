@@ -27,32 +27,32 @@
         </div>
       </div>
     </div>
-    <div class="text-center md:mt-24 text-4xl text-secondary">
-      <a
-        class="transition duration-150 ease-in-out mx-4 hover:text-primary"
-        href="https://github.com/AaronCQL"
-      >
-        <font-awesome :icon="['fab', 'github']" />
+    <div class="flex justify-center md:pt-12">
+      <a href="https://github.com/AaronCQL">
+        <github />
       </a>
-      <a
-        class="transition duration-150 ease-in-out mx-4 hover:text-primary"
-        href="https://www.linkedin.com/in/aaroncql/"
-      >
-        <font-awesome :icon="['fab', 'linkedin']" />
+      <a class="mx-3" href="https://www.linkedin.com/in/aaroncql/">
+        <linkedin />
       </a>
-      <a
-        class="transition duration-150 ease-in-out mx-4 hover:text-primary"
-        href="#"
-      >
-        <font-awesome :icon="['fas', 'file-alt']" />
+      <a href="mailto:choozy.aaron@gmail.com">
+        <gmail />
       </a>
     </div>
   </div>
 </template>
 
 <script>
+import Github from "~/assets/logos/Github.svg";
+import Linkedin from "~/assets/logos/Linkedin.svg";
+import Gmail from "~/assets/logos/Gmail.svg";
+
 export default {
   name: "LandingSection",
+  components: {
+    Github,
+    Linkedin,
+    Gmail,
+  },
 };
 </script>
 

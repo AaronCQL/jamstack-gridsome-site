@@ -5,7 +5,8 @@ module.exports = {
       fontFamily: {
         sans: ["Open\\ Sans"],
         nav: ["Raleway"],
-        title: ["Nunito"],
+        title: ["Raleway"],
+        subtitle: ["Josefin Sans"],
         handwriting: ["Gloria\\ Hallelujah"],
       },
       colors: {

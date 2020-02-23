@@ -3,3 +3,15 @@
 @tailwind components;
 
 @tailwind utilities;
+
+a {
+  @apply text-primary;
+  @apply font-semibold;
+  @apply transition;
+  @apply duration-150;
+  @apply ease-in-out;
+}
+
+a:hover {
+  @apply text-secondary;
+}

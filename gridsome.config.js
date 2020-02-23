@@ -10,12 +10,11 @@ module.exports = {
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss",
-      options: {
-        purgeConfig: {
-          whitelist: ["svg-inline--fa"],
-          whitelistPatterns: [/shiki/, /fa-$/],
-        },
-      },
     },
   ],
+  chainWebpack: config => {
+    const svgRule = config.module.rule("svg");
+    svgRule.uses.clear();
+    svgRule.use("vue-svg-loader").loader("vue-svg-loader");
+  },
 };
