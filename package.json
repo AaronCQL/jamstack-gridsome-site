@@ -17,9 +17,6 @@
     "prettier": "^1.19.1",
     "typeface-gloria-hallelujah": "0.0.72",
     "typeface-josefin-sans": "0.0.75",
-    "typeface-merriweather-sans": "0.0.72",
-    "typeface-nunito": "^1.1.3",
-    "typeface-open-sans": "0.0.75",
     "typeface-raleway": "0.0.75"
   },
   "devDependencies": {

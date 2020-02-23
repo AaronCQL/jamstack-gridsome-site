@@ -4,7 +4,7 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 require("typeface-raleway");
-require("typeface-nunito");
+require("typeface-josefin-sans");
 require("typeface-gloria-hallelujah");
 
 import "~/styles/global.css";

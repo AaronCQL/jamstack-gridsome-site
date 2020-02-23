@@ -6,6 +6,7 @@ module.exports = {
         sans: ["Open\\ Sans"],
         nav: ["Raleway"],
         title: ["Raleway"],
+        subtitle: ["Josefin Sans"],
         handwriting: ["Gloria\\ Hallelujah"],
       },
       colors: {
