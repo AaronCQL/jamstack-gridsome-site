@@ -10,6 +10,7 @@ module.exports = {
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss",
+      shouldPurge: false,
     },
   ],
 };
