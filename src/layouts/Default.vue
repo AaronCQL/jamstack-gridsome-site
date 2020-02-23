@@ -89,5 +89,3 @@ export default {
   },
 };
 </script>
-
-<style src="~/styles/global.css" />
