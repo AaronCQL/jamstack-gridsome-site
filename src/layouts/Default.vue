@@ -43,7 +43,9 @@
     <div>
       <slot />
     </div>
-    <footer class="text-sm text-gray-700 border-t py-3 text-center bg-gray-100">
+    <footer
+      class="font-nav text-sm text-gray-700 border-t py-3 text-center bg-gray-100"
+    >
       Copyright &copy; 2020 Aaron Choo
     </footer>
   </div>
