@@ -13,7 +13,7 @@ module.exports = {
       options: {
         purgeConfig: {
           whitelist: ["svg-inline--fa"],
-          whitelistPatterns: [/shiki/, /fa-$/],
+          // whitelistPatterns: [/shiki/, /fa-$/],
         },
       },
     },
