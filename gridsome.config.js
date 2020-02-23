@@ -39,7 +39,7 @@ module.exports = {
                 content: ["src/assets/**/*.css", "src/**/*.vue", "src/**/*.js"],
                 extractors: [
                   {
-                    extractor: TailwindExtractor,
+                    extractor: new TailwindExtractor(),
                     extensions: ["css", "vue", "js"],
                   },
                 ],
