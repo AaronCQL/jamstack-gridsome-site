@@ -6,11 +6,12 @@
 
     <div>
       <p>
-        Hello! I am Aaron Choo, a second year computer science student at the
+        Hello! I am Aaron Choo, a computer science student at the
         <a href="https://www.comp.nus.edu.sg/programmes/ug/cs/">
           National University of Singapore (NUS)</a
-        >. I currently work part-time as a Software Engineer Intern at
-        <a href="https://qashier.co/">Qashier</a>.
+        >
+        graduating in May 2022. I currently work part-time as a Software
+        Engineer Intern at <a href="https://qashier.co/">Qashier</a>.
       </p>
       <p class="mt-4">
         Scroll down to see some projects I have made since starting university.

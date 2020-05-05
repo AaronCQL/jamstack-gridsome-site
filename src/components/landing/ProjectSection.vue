@@ -46,7 +46,7 @@
 </template>
 
 <script>
-import ProjectEntry from "~/components/projectSection/ProjectEntry.vue";
+import ProjectEntry from "~/components/landing/ProjectEntry.vue";
 
 export default {
   name: "ProjectSection",
