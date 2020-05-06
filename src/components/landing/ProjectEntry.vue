@@ -5,7 +5,7 @@
     <div class="text-xl font-title font-semibold">
       {{ title }}
     </div>
-    <div class="text-gray-800">
+    <div :class="isDarkMode ? 'text-gray-400' : 'text-gray-800'">
       <slot></slot>
     </div>
   </div>
@@ -15,6 +15,11 @@
 export default {
   props: {
     title: String,
+  },
+  computed: {
+    isDarkMode() {
+      return this.globalData.isDarkMode;
+    },
   },
 };
 </script>

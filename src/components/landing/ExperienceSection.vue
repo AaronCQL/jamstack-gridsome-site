@@ -16,7 +16,10 @@
     >
     </experience-entry>
 
-    <div class="border mx-24 my-4"></div>
+    <div
+      :class="isDarkMode ? 'border-gray-800' : ''"
+      class="border mx-24 my-4"
+    ></div>
 
     <experience-entry
       company="Qashier"
@@ -29,7 +32,10 @@
       backend.
     </experience-entry>
 
-    <div class="border mx-24 my-2"></div>
+    <div
+      :class="isDarkMode ? 'border-gray-800' : ''"
+      class="border mx-24 my-2"
+    ></div>
 
     <experience-entry
       company="National University of Singapore"
@@ -48,6 +54,11 @@ export default {
   name: "ExperienceSection",
   components: {
     ExperienceEntry,
+  },
+  computed: {
+    isDarkMode() {
+      return this.globalData.isDarkMode;
+    },
   },
 };
 </script>

@@ -5,7 +5,8 @@
     </h1>
 
     <div
-      class="transition-shadow md:border duration-150 ease-in-out md:shadow-md md:hover:shadow-lg font-title p-5 max-w-lg rounded-lg mx-auto md:bg-white"
+      :class="isDarkMode ? 'md:bg-gray-900 border-gray-700' : ''"
+      class="transition-shadow md:border duration-150 ease-in-out md:shadow-md md:hover:shadow-lg font-title p-5 max-w-lg rounded-lg mx-auto"
     >
       <div class="md:flex">
         <g-image
@@ -18,7 +19,10 @@
           >
             Aaron Choo
           </p>
-          <div class="text-2xl md:text-xl text-gray-700 font-light">
+          <div
+            :class="isDarkMode ? 'text-gray-500' : 'text-gray-700'"
+            class="text-2xl md:text-xl font-light"
+          >
             <p>Computer Science Student</p>
             <p>Software Engineer Intern</p>
             <p>Ex-Teaching Assistant</p>
@@ -38,6 +42,14 @@
         <gmail />
       </a>
     </div>
+    <div class="text-center mt-4">
+      <button
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        @click="toggleDarkMode"
+      >
+        Dark Mode
+      </button>
+    </div>
   </div>
 </template>
 
@@ -52,6 +64,18 @@ export default {
     Github,
     Linkedin,
     Gmail,
+  },
+  computed: {
+    isDarkMode() {
+      return this.globalData.isDarkMode;
+    },
+  },
+  methods: {
+    toggleDarkMode() {
+      const nextState = localStorage.darkMode === "true" ? false : true;
+      localStorage.darkMode = nextState;
+      this.globalData.isDarkMode = nextState;
+    },
   },
 };
 </script>

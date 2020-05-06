@@ -11,7 +11,7 @@
     <div class="text-lg font-title italic">
       {{ title }}
     </div>
-    <div class="text-gray-800 text-md">
+    <div :class="isDarkMode ? 'text-gray-400' : 'text-gray-800'">
       <slot></slot>
     </div>
   </div>
@@ -23,6 +23,11 @@ export default {
     company: String,
     date: String,
     title: String,
+  },
+  computed: {
+    isDarkMode() {
+      return this.globalData.isDarkMode;
+    },
   },
 };
 </script>

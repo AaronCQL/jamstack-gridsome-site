@@ -1,5 +1,5 @@
 <template>
-  <Layout class="bg-white">
+  <Layout :class="isDarkMode ? 'bg-black text-gray-200' : 'bg-white'">
     <landing-section
       id="landing"
       class="min-h-screen max-w-3xl mx-auto py-24"
@@ -37,6 +37,11 @@ export default {
   },
   metaInfo: {
     title: "Aaron Choo | Student",
+  },
+  computed: {
+    isDarkMode() {
+      return this.globalData.isDarkMode;
+    },
   },
 };
 </script>

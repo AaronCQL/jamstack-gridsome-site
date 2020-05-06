@@ -17,4 +17,15 @@ export default function(Vue, { router, head, isClient }) {
   Vue.use(VueScrollTo, {
     offset: -60,
   });
+
+  const globalData = {
+    isDarkMode: localStorage.darkMode === "true" ? true : false,
+  };
+  Vue.mixin({
+    data: function() {
+      return {
+        globalData: globalData,
+      };
+    },
+  });
 }

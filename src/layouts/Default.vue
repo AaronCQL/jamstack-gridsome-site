@@ -2,13 +2,15 @@
   <div class="layout">
     <header class="header">
       <nav
-        class="fixed top-0 w-full flex items-center justify-between flex-wrap bg-gray-100 py-1 px-6 lg:px-32 md:px-12 border-b border-secondary"
+        :class="isDarkMode ? 'bg-gray-900' : 'bg-gray-100'"
+        class="fixed top-0 w-full flex items-center justify-between flex-wrap py-1 px-6 lg:px-32 md:px-12 border-b border-secondary"
       >
         <a
           href="#"
           v-scroll-to="'#landing'"
           @click="isNavExpanded = false"
-          class="text-black font-nav text-3xl flex items-center flex-shrink-0 mr-6"
+          :class="isDarkMode ? 'text-indigo-200' : 'text-black'"
+          class="font-nav text-3xl flex items-center flex-shrink-0 mr-6"
         >
           <span class="font-bold">Aaron</span>
           <span class="font-thin">CQL</span>
@@ -39,7 +41,8 @@
               :href="link.to"
               v-scroll-to="link.to"
               @click="isNavExpanded = false"
-              class="block text-md font-semibold font-nav md:inline-block my-4 md:my-0 ml-0 md:ml-6 text-black"
+              :class="isDarkMode ? 'text-indigo-200' : 'text-black'"
+              class="block text-md font-semibold font-nav md:inline-block my-4 md:my-0 ml-0 md:ml-6"
             >
               {{ link.label }}
             </a>
@@ -51,7 +54,12 @@
       <slot />
     </div>
     <footer
-      class="font-nav text-sm text-gray-700 border-t py-3 text-center bg-gray-100"
+      :class="
+        isDarkMode
+          ? 'bg-gray-900 text-gray-500 border-gray-700'
+          : 'bg-gray-100 text-gray-700'
+      "
+      class="font-nav text-sm border-t py-3 text-center"
     >
       Copyright &copy; 2020 Aaron Choo
     </footer>
@@ -90,6 +98,11 @@ export default {
         },
       ],
     };
+  },
+  computed: {
+    isDarkMode() {
+      return this.globalData.isDarkMode;
+    },
   },
   methods: {
     toggleNavbar() {
