@@ -19,7 +19,12 @@ export default function(Vue, { router, head, isClient }) {
   });
 
   const globalData = {
-    isDarkMode: localStorage.darkMode === "true" ? true : false,
+    // only access the localStorage on client side
+    isDarkMode: process.isClient
+      ? localStorage.darkMode === "true"
+        ? true
+        : false
+      : false,
   };
   Vue.mixin({
     data: function() {
