@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1 class="text-4xl text-secondary font-title font-semibold">
+    <section-header>
       Personal Projects
-    </h1>
+    </section-header>
 
     <project-entry title="Tree Secure (Mobile App)">
       <p>
@@ -47,11 +47,13 @@
 
 <script>
 import ProjectEntry from "~/components/landing/ProjectEntry.vue";
+import SectionHeader from "./../shared/SectionHeader";
 
 export default {
   name: "ProjectSection",
   components: {
     ProjectEntry,
+    SectionHeader,
   },
 };
 </script>

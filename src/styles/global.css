@@ -5,13 +5,61 @@
 @tailwind utilities;
 
 a {
-  @apply text-primary;
-  @apply font-semibold;
   @apply transition;
   @apply duration-150;
   @apply ease-in-out;
 }
 
-a:hover {
-  @apply text-secondary;
+/* LIGHT THEME */
+
+.theme-light {
+  @apply bg-white;
+  color: #21171B;
+}
+
+.text-header-light {
+  @apply text-4xl; 
+  @apply text-secondary-light;
+  @apply font-title;
+  @apply font-semibold;
+}
+
+.text-subsection-light {
+  @apply text-gray-700;
+}
+
+.a-light {
+  @apply text-primary-light;
+  @apply font-semibold;
+}
+
+.a-light:hover {
+  @apply text-secondary-light;
+}
+
+/* DARK THEME */
+
+.theme-dark {
+  @apply bg-black;
+  @apply text-gray-200;
+}
+
+.text-header-dark {
+  @apply text-4xl; 
+  @apply text-indigo-200;
+  @apply font-title;
+  @apply font-semibold;
+}
+
+.text-subsection-dark {
+  @apply text-gray-400;
+}
+
+.a-dark {
+  @apply text-indigo-300;
+  @apply font-semibold;
+}
+
+.a-dark:hover {
+  @apply text-indigo-500;
 }

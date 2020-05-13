@@ -1,5 +1,5 @@
 <template>
-  <Layout :class="isDarkMode ? 'bg-black text-gray-200' : 'bg-white'">
+  <Layout :class="isDarkMode ? 'theme-dark' : 'theme-light'">
     <landing-section
       id="landing"
       class="min-h-screen max-w-3xl mx-auto py-24"

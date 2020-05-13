@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1 class="text-4xl text-secondary font-title font-semibold">
+    <section-header>
       Experience
-    </h1>
+    </section-header>
 
     <div class="mb-6 text-lg">
       These are some of the companies I have had the priviledge of working with.
@@ -27,9 +27,9 @@
       title="Software Engineer Intern"
     >
       Developed and maintained a full stack
-      <a href="https://hq.qashier.co/#/">web application</a> built using Vue.js
-      and Quasar for the frontend, and Firebase, GCP and Node.js for the
-      backend.
+      <styled-link href="https://hq.qashier.co/#/">web application</styled-link>
+      built using Vue.js and Quasar for the frontend, and Firebase, GCP and
+      Node.js for the backend.
     </experience-entry>
 
     <div
@@ -48,12 +48,16 @@
 </template>
 
 <script>
-import ExperienceEntry from "~/components/landing/ExperienceEntry.vue";
+import ExperienceEntry from "./ExperienceEntry.vue";
+import StyledLink from "./../shared/StyledLink";
+import SectionHeader from "./../shared/SectionHeader";
 
 export default {
   name: "ExperienceSection",
   components: {
     ExperienceEntry,
+    StyledLink,
+    SectionHeader,
   },
   computed: {
     isDarkMode() {

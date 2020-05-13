@@ -20,7 +20,9 @@
             Aaron Choo
           </p>
           <div
-            :class="isDarkMode ? 'text-gray-500' : 'text-gray-700'"
+            :class="
+              isDarkMode ? 'text-subsection-dark' : 'text-subsection-light'
+            "
             class="text-2xl md:text-xl font-light"
           >
             <p>Computer Science Student</p>

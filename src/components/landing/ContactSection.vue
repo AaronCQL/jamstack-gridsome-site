@@ -1,21 +1,31 @@
 <template>
   <div class="text-lg">
-    <h1 class="text-4xl text-secondary font-title font-semibold">
+    <section-header>
       Contact Me
-    </h1>
+    </section-header>
 
     <p>
       If you'd like to buy me a coffee (Kopi-C Kosong please), chat about our
       shared love for Vue.js, or even hire me, feel free to contact me via my
-      <a href="mailto:choozy.aaron@gmail.com">email</a> or send a connection
-      over to my <a href="https://www.linkedin.com/in/aaroncql/">LinkedIn</a>.
+      <styled-link href="mailto:choozy.aaron@gmail.com">email</styled-link> or
+      send a connection over to my
+      <styled-link href="https://www.linkedin.com/in/aaroncql/"
+        >LinkedIn</styled-link
+      >.
     </p>
   </div>
 </template>
 
 <script>
+import StyledLink from "./../shared/StyledLink";
+import SectionHeader from "./../shared/SectionHeader";
+
 export default {
   name: "ContactSection",
+  components: {
+    StyledLink,
+    SectionHeader,
+  },
 };
 </script>
 

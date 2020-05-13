@@ -10,9 +10,8 @@ module.exports = {
         handwriting: ["Gloria\\ Hallelujah"],
       },
       colors: {
-        text: "#21171B",
-        primary: "#7E94D6",
-        secondary: "#354677",
+        "primary-light": "#7E94D6",
+        "secondary-light": "#354677",
       },
     },
   },

@@ -2,14 +2,18 @@
   <div class="layout">
     <header class="header">
       <nav
-        :class="isDarkMode ? 'bg-gray-900' : 'bg-gray-100'"
-        class="fixed top-0 w-full flex items-center justify-between flex-wrap py-1 px-6 lg:px-32 md:px-12 border-b border-secondary"
+        :class="
+          isDarkMode
+            ? 'bg-gray-900 border-indigo-300'
+            : 'bg-gray-100 border-secondary-light'
+        "
+        class="fixed top-0 w-full flex items-center justify-between flex-wrap py-1 px-6 lg:px-32 md:px-12 border-b"
       >
         <a
           href="#"
           v-scroll-to="'#landing'"
           @click="isNavExpanded = false"
-          :class="isDarkMode ? 'text-indigo-200' : 'text-black'"
+          :class="isDarkMode ? 'text-white' : 'text-black'"
           class="font-nav text-3xl flex items-center flex-shrink-0 mr-6"
         >
           <span class="font-bold">Aaron</span>
@@ -17,7 +21,12 @@
         </a>
         <div class="block md:hidden">
           <button
-            class="flex items-center px-3 py-2 border rounded text-secondary border-secondary"
+            :class="
+              isDarkMode
+                ? 'text-indigo-300 border-indigo-300'
+                : 'text-secondary-light border-secondary-light'
+            "
+            class="flex items-center px-3 py-2 border rounded focus:outline-none"
             @click="toggleNavbar"
           >
             <svg
@@ -41,7 +50,7 @@
               :href="link.to"
               v-scroll-to="link.to"
               @click="isNavExpanded = false"
-              :class="isDarkMode ? 'text-indigo-200' : 'text-black'"
+              :class="isDarkMode ? 'text-white' : 'text-black'"
               class="block text-md font-semibold font-nav md:inline-block my-4 md:my-0 ml-0 md:ml-6"
             >
               {{ link.label }}
