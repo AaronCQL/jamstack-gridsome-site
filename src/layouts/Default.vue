@@ -109,5 +109,13 @@ export default {
       this.isNavExpanded = !this.isNavExpanded;
     },
   },
+  mounted() {
+    // localStorage is only accessible in client side mounted hook
+    if (localStorage.isDarkMode === "true") {
+      this.globalData.isDarkMode = true;
+    } else {
+      this.globalData.isDarkMode = false;
+    }
+  },
 };
 </script>

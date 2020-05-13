@@ -72,8 +72,8 @@ export default {
   },
   methods: {
     toggleDarkMode() {
-      const nextState = localStorage.darkMode === "true" ? false : true;
-      localStorage.darkMode = nextState;
+      const nextState = !this.isDarkMode;
+      localStorage.isDarkMode = nextState;
       this.globalData.isDarkMode = nextState;
     },
   },

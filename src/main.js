@@ -18,14 +18,11 @@ export default function(Vue, { router, head, isClient }) {
     offset: -60,
   });
 
+  // global reactive data for use in all components
   const globalData = {
-    // only access the localStorage on client side
-    isDarkMode: process.isClient
-      ? localStorage.darkMode === "true"
-        ? true
-        : false
-      : false,
+    isDarkMode: false, // this will be set in default layout mounted hook
   };
+
   Vue.mixin({
     data: function() {
       return {
