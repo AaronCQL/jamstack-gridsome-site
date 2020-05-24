@@ -6,17 +6,19 @@
 
     <div>
       <p>
-        Hello! I am Aaron Choo, a computer science student at the
+        Hello! I am Aaron Choo, a third year student at the
         <styled-link href="https://www.comp.nus.edu.sg/programmes/ug/cs/">
           National University of Singapore (NUS)</styled-link
         >
-        graduating in May 2022. I currently work part-time as a Software
-        Engineer Intern at
-        <styled-link href="https://qashier.co/">Qashier</styled-link>.
+        majoring in Computer Science and graduating in May 2022. I am currently
+        undergoing an internship as a Systems Engineer at
+        <styled-link href="https://www.visa.com.sg/">Visa Inc.</styled-link>
+        under the Operations & Infrastructure team.
       </p>
       <p class="mt-4">
-        Scroll down to see some projects I have made since starting university.
-        Otherwise, you can just enjoy my lovely stacks.
+        I am deeply passionate about all things tech related, especially in
+        areas like Cloud Computing and Full Stack Web Development. Scroll down
+        to see some projects I have made since starting university!
       </p>
     </div>
   </div>

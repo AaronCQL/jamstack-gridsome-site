@@ -26,8 +26,8 @@
             class="text-2xl md:text-xl font-light"
           >
             <p>Computer Science Student</p>
-            <p>Software Engineer Intern</p>
-            <p>Ex-Teaching Assistant</p>
+            <p>Systems Engineer Intern</p>
+            <p>Teaching Assistant</p>
             <p>Private Tutor</p>
           </div>
         </div>
@@ -42,7 +42,7 @@
       </a>
       <a
         :class="isDarkMode ? 'icon-dark' : 'icon-light'"
-        class="mx-10"
+        class="mx-6 md:mx-10"
         href="https://www.linkedin.com/in/aaroncql/"
       >
         <font-awesome-icon :icon="['fab', 'linkedin']" />
