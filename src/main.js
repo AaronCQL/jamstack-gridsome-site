@@ -10,10 +10,19 @@ require("typeface-gloria-hallelujah");
 import "~/styles/global.css";
 import VueScrollTo from "vue-scrollto";
 import DefaultLayout from "~/layouts/Default.vue";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
+library.add(faGithub, faLinkedin, faEnvelope);
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
+
+  Vue.component("font-awesome-icon", FontAwesomeIcon);
+
   Vue.use(VueScrollTo, {
     offset: -60,
   });
