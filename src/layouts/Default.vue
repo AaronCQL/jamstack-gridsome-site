@@ -19,6 +19,10 @@
           <span class="font-bold">Aaron</span>
           <span class="font-thin">CQL</span>
         </a>
+        <div @click="toggleDarkMode" class="text-2xl cursor-pointer">
+          <font-awesome-icon v-if="isDarkMode" :icon="['far', 'sun']" />
+          <font-awesome-icon v-else :icon="['far', 'moon']" />
+        </div>
         <div class="block md:hidden">
           <button
             :class="
@@ -116,6 +120,11 @@ export default {
   methods: {
     toggleNavbar() {
       this.isNavExpanded = !this.isNavExpanded;
+    },
+    toggleDarkMode() {
+      const nextState = !this.isDarkMode;
+      localStorage.isDarkMode = nextState;
+      this.globalData.isDarkMode = nextState;
     },
   },
   mounted() {

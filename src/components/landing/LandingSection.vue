@@ -54,14 +54,6 @@
         <font-awesome-icon :icon="['fas', 'envelope']" />
       </a>
     </div>
-    <div class="text-center mt-4">
-      <button
-        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-        @click="toggleDarkMode"
-      >
-        Dark Mode
-      </button>
-    </div>
   </div>
 </template>
 
@@ -71,13 +63,6 @@ export default {
   computed: {
     isDarkMode() {
       return this.globalData.isDarkMode;
-    },
-  },
-  methods: {
-    toggleDarkMode() {
-      const nextState = !this.isDarkMode;
-      localStorage.isDarkMode = nextState;
-      this.globalData.isDarkMode = nextState;
     },
   },
 };
