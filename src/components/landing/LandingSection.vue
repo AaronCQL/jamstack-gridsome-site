@@ -66,17 +66,8 @@
 </template>
 
 <script>
-import Github from "~/assets/logos/Github.svg";
-import Linkedin from "~/assets/logos/Linkedin.svg";
-import Gmail from "~/assets/logos/Gmail.svg";
-
 export default {
   name: "LandingSection",
-  components: {
-    Github,
-    Linkedin,
-    Gmail,
-  },
   computed: {
     isDarkMode() {
       return this.globalData.isDarkMode;
