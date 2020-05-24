@@ -94,16 +94,16 @@ export default {
           to: "#about",
         },
         {
+          label: "Experience",
+          to: "#experience",
+        },
+        {
           label: "Projects",
           to: "#projects",
         },
         {
           label: "Contact",
           to: "#contact",
-        },
-        {
-          label: "Blog",
-          to: "#",
         },
       ],
     };
