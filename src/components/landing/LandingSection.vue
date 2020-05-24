@@ -33,15 +33,25 @@
         </div>
       </div>
     </div>
-    <div class="flex justify-center md:pt-12">
-      <a href="https://github.com/AaronCQL">
-        <github />
+    <div class="flex justify-center md:pt-6 text-4xl">
+      <a
+        :class="isDarkMode ? 'icon-dark' : 'icon-light'"
+        href="https://github.com/AaronCQL"
+      >
+        <font-awesome-icon :icon="['fab', 'github']" />
       </a>
-      <a class="mx-3" href="https://www.linkedin.com/in/aaroncql/">
-        <linkedin />
+      <a
+        :class="isDarkMode ? 'icon-dark' : 'icon-light'"
+        class="mx-10"
+        href="https://www.linkedin.com/in/aaroncql/"
+      >
+        <font-awesome-icon :icon="['fab', 'linkedin']" />
       </a>
-      <a href="mailto:choozy.aaron@gmail.com">
-        <gmail />
+      <a
+        :class="isDarkMode ? 'icon-dark' : 'icon-light'"
+        href="mailto:choozy.aaron@gmail.com"
+      >
+        <font-awesome-icon :icon="['fas', 'envelope']" />
       </a>
     </div>
     <div class="text-center mt-4">
@@ -56,17 +66,8 @@
 </template>
 
 <script>
-import Github from "~/assets/logos/Github.svg";
-import Linkedin from "~/assets/logos/Linkedin.svg";
-import Gmail from "~/assets/logos/Gmail.svg";
-
 export default {
   name: "LandingSection",
-  components: {
-    Github,
-    Linkedin,
-    Gmail,
-  },
   computed: {
     isDarkMode() {
       return this.globalData.isDarkMode;
