@@ -10,38 +10,49 @@
     </div>
 
     <experience-section-entry
-      company="Visa Inc."
       date="May 2020 - Present"
       title="Systems Engineer Intern"
     >
+      <template v-slot:logo>
+        <g-image
+          alt="Visa Logo"
+          title="Visa Inc."
+          src="~/assets/visa-logo.svg"
+          class="w-20 object-contain"
+        />
+      </template>
     </experience-section-entry>
 
-    <div
-      :class="isDarkMode ? 'border-gray-800' : ''"
-      class="border mx-24 my-4"
-    ></div>
-
     <experience-section-entry
-      company="Qashier"
       date="Jun 2019 - May 2020"
       title="Software Engineer Intern"
     >
+      <template v-slot:logo>
+        <g-image
+          alt="Qashier Logo"
+          title="Qashier"
+          src="~/assets/qashier-logo.png"
+          class="w-40 object-contain"
+        />
+      </template>
       Developed and maintained a full stack
       <styled-link href="https://hq.qashier.co/#/">web application</styled-link>
       built using Vue.js and Quasar for the frontend, and Firebase, GCP and
       Node.js for the backend.
     </experience-section-entry>
 
-    <div
-      :class="isDarkMode ? 'border-gray-800' : ''"
-      class="border mx-24 my-2"
-    ></div>
-
     <experience-section-entry
-      company="National University of Singapore"
       date="Aug 2019 - Dec 2019"
       title="Teaching Assistant"
     >
+      <template v-slot:logo>
+        <g-image
+          alt="NUS Logo"
+          title="National University of Singapore"
+          src="~/assets/nus-logo.png"
+          class="w-48 object-contain"
+        />
+      </template>
       Taught weekly tutorial sessions for CS1101S Programming Methodology I
     </experience-section-entry>
   </div>

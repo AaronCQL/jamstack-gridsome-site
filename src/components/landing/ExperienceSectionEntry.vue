@@ -1,17 +1,20 @@
 <template>
-  <div class="px-4 py-2">
-    <div class="flex font-title justify-between">
-      <span class="text-xl font-semibold">
-        {{ company }}
-      </span>
-      <span>
+  <div class="border-l-2 border-secondary-light pl-2 mb-6">
+    <div class="font-title text-xl font-semibold">
+      <slot name="logo"></slot>
+    </div>
+    <div class="flex flex-col sm:flex-row font-title justify-between">
+      <div class="text-lg italic">
+        {{ title }}
+      </div>
+      <div>
         {{ date }}
-      </span>
+      </div>
     </div>
-    <div class="text-lg font-title italic">
-      {{ title }}
-    </div>
-    <div :class="isDarkMode ? 'text-subsection-dark' : 'text-subsection-light'">
+    <div
+      class="mt-2"
+      :class="isDarkMode ? 'text-subsection-dark' : 'text-subsection-light'"
+    >
       <slot></slot>
     </div>
   </div>
@@ -20,7 +23,6 @@
 <script>
 export default {
   props: {
-    company: String,
     date: String,
     title: String,
   },
