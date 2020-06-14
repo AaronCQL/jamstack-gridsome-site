@@ -26,7 +26,12 @@
       >
         <p>
           A cross-platform online multiplayer free-for-all 2D pixel art
-          platformer. Voted runner up (out of 243 teams) at NUS Orbital 2019.
+          platformer. Voted
+          <styled-link
+            href="https://credentials.nus.edu.sg/e472844a-d467-46b0-a6d8-7f5e399559df"
+            >runner up</styled-link
+          >
+          (out of 243 teams) at NUS Orbital 2019.
         </p>
       </project-section-entry>
 
@@ -71,14 +76,16 @@
 </template>
 
 <script>
-import ProjectSectionEntry from "~/components/landing/ProjectSectionEntry.vue";
+import ProjectSectionEntry from "./ProjectSectionEntry";
 import SectionHeader from "./../shared/SectionHeader";
+import StyledLink from "./../shared/StyledLink";
 
 export default {
   name: "ProjectSection",
   components: {
     ProjectSectionEntry,
     SectionHeader,
+    StyledLink,
   },
 };
 </script>

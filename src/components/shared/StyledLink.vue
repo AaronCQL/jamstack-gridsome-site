@@ -1,5 +1,5 @@
 <template>
-  <a :class="isDarkMode ? 'a-dark' : 'a-light'" :href="href">
+  <a :class="isDarkMode ? 'a-dark' : 'a-light'" :href="href" target="_blank">
     <slot></slot>
   </a>
 </template>

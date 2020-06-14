@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import ButtonLink from "../shared/ButtonLink";
+import ButtonLink from "./../shared/ButtonLink";
 
 export default {
   props: {
