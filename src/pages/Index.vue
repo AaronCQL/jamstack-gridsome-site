@@ -1,22 +1,12 @@
 <template>
   <Layout :class="isDarkMode ? 'theme-dark' : 'theme-light'">
-    <landing-section
-      id="landing"
-      class="min-h-screen max-w-3xl mx-auto py-24"
-    />
-    <about-section id="about" class="px-2 md:px-6 pb-12 max-w-3xl mx-auto" />
-    <experience-section
-      id="experience"
-      class="px-2 md:px-6 pb-12 max-w-3xl mx-auto"
-    />
-    <project-section
-      id="projects"
-      class="px-2 md:px-6 pb-12 max-w-3xl mx-auto"
-    />
-    <contact-section
-      id="contact"
-      class="px-2 md:px-6 pb-12 max-w-3xl mx-auto"
-    />
+    <landing-section id="landing" class="min-h-screen py-24" />
+    <div class="max-w-4xl mx-auto px-2 md:px-12">
+      <about-section id="about" class="pb-12" />
+      <experience-section id="experience" class="pb-12" />
+      <project-section id="projects" class="pb-12" />
+      <contact-section id="contact" class="pb-12" />
+    </div>
   </Layout>
 </template>
 
