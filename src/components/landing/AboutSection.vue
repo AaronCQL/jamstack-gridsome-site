@@ -18,7 +18,8 @@
       <p class="mt-4">
         I am deeply passionate about all things tech related, especially in
         areas like Cloud Computing and Full Stack Web Development. Scroll down
-        to see some projects I have made since starting university!
+        to see my experience and the projects that I have made since starting
+        university!
       </p>
     </div>
   </div>

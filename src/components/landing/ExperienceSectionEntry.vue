@@ -1,6 +1,6 @@
 <template>
   <div class="border-l-2 border-secondary-light pl-2 mb-6">
-    <div class="font-title text-xl font-semibold">
+    <div>
       <slot name="logo"></slot>
     </div>
     <div class="flex flex-col sm:flex-row font-title justify-between">

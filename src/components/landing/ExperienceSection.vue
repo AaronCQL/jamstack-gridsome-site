@@ -5,8 +5,10 @@
     </section-header>
 
     <div class="mb-6 text-lg">
-      These are some of the companies I have had the priviledge of working with.
-      Refer to my resume for more information about what I had worked on.
+      These are some of the companies I have had the privilege of working with.
+      Refer to my
+      <styled-link href="/aaron-choo-resume.pdf">resume</styled-link>
+      for more information about what I had worked on.
     </div>
 
     <experience-section-entry
