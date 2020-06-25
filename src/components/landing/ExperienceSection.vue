@@ -37,10 +37,12 @@
           class="w-40 object-contain"
         />
       </template>
-      Developed and maintained a full stack
-      <styled-link href="https://hq.qashier.co/#/">web application</styled-link>
-      built using Vue.js and Quasar for the frontend, and Firebase, GCP and
-      Node.js for the backend.
+      Developed and maintained a
+      <styled-link href="https://hq.qashier.co/#/"
+        >full stack web application</styled-link
+      >
+      built using Vue.js and Quasar for the frontend, and Node.js, Firebase and
+      Google Cloud Platform for the backend.
     </experience-section-entry>
 
     <experience-section-entry
