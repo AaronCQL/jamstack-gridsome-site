@@ -13,10 +13,10 @@ import DefaultLayout from "~/layouts/Default.vue";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faAdjust } from "@fortawesome/free-solid-svg-icons";
-import { faSun, faMoon } from "@fortawesome/free-regular-svg-icons";
+import { faSun, faMoon, faStar } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faGithub, faLinkedin, faEnvelope, faAdjust, faSun, faMoon);
+library.add(faGithub, faLinkedin, faEnvelope, faAdjust, faSun, faMoon, faStar);
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component

@@ -6,23 +6,11 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
       <project-section-entry
-        title="Tree Secure (Mobile App)"
-        :stack="['Flutter', 'Dart', 'Firebase']"
-        sourceCodeUrl="https://github.com/AaronCQL/tree-secure"
-        demoUrl="https://github.com/AaronCQL/tree-secure/releases"
-      >
-        <p>
-          A not-so-serious cross-platform mobile app to spread the awareness of
-          the heritage trees in Singapore. Developed in 24 hours at NUS
-          Hack&amp;Roll 2020.
-        </p>
-      </project-section-entry>
-
-      <project-section-entry
         title="PixiesPixel (Game)"
         :stack="['Godot', 'GDScript']"
         sourceCodeUrl="https://github.com/AaronCQL/PixiesPixel"
         demoUrl="https://github.com/AaronCQL/PixiesPixel/releases"
+        repoApiUrl="https://api.github.com/repos/AaronCQL/PixiesPixel"
       >
         <p>
           A cross-platform online multiplayer free-for-all 2D pixel art
@@ -32,6 +20,31 @@
             >runner up</styled-link
           >
           (out of 243 teams) at NUS Orbital 2019.
+        </p>
+      </project-section-entry>
+
+      <project-section-entry
+        title="Serious Collection"
+        :stack="['LaTeX', 'Markdown']"
+        sourceCodeUrl="https://github.com/AaronCQL/serious-collection"
+        repoApiUrl="https://api.github.com/repos/AaronCQL/serious-collection"
+      >
+        <p>
+          Personal collection of notes and cheatsheets made during my Computer
+          Science course at NUS.
+        </p>
+      </project-section-entry>
+
+      <project-section-entry
+        title="Tree Secure (Mobile App)"
+        :stack="['Flutter', 'Dart', 'Firebase']"
+        sourceCodeUrl="https://github.com/AaronCQL/tree-secure"
+        demoUrl="https://github.com/AaronCQL/tree-secure/releases"
+      >
+        <p>
+          A not-so-serious cross-platform mobile app to spread the awareness of
+          the heritage trees in Singapore. Developed in 24 hours at NUS
+          Hack&amp;Roll 2020.
         </p>
       </project-section-entry>
 
