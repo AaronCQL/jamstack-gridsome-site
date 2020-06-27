@@ -33,19 +33,27 @@
         </div>
       </div>
     </div>
-    <div class="flex justify-center md:pt-6 text-4xl">
+    <div class="flex justify-center md:pt-6 text-4xl space-x-6">
       <a
         :class="isDarkMode ? 'icon-dark' : 'icon-light'"
         href="https://github.com/AaronCQL"
+        target="_blank"
       >
         <font-awesome-icon :icon="['fab', 'github']" />
       </a>
       <a
         :class="isDarkMode ? 'icon-dark' : 'icon-light'"
-        class="mx-6 md:mx-10"
         href="https://www.linkedin.com/in/aaroncql/"
+        target="_blank"
       >
         <font-awesome-icon :icon="['fab', 'linkedin']" />
+      </a>
+      <a
+        :class="isDarkMode ? 'icon-dark' : 'icon-light'"
+        href="https://dev.to/aaroncql"
+        target="_blank"
+      >
+        <font-awesome-icon :icon="['fab', 'dev']" />
       </a>
       <a
         :class="isDarkMode ? 'icon-dark' : 'icon-light'"

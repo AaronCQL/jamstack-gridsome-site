@@ -11,12 +11,25 @@ import "~/styles/global.css";
 import VueScrollTo from "vue-scrollto";
 import DefaultLayout from "~/layouts/Default.vue";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faDev,
+} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faAdjust } from "@fortawesome/free-solid-svg-icons";
 import { faSun, faMoon, faStar } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faGithub, faLinkedin, faEnvelope, faAdjust, faSun, faMoon, faStar);
+library.add(
+  faGithub,
+  faLinkedin,
+  faEnvelope,
+  faAdjust,
+  faSun,
+  faMoon,
+  faStar,
+  faDev
+);
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
