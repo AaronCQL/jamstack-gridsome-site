@@ -6,7 +6,7 @@
 
 // eslint-disable-next-line no-undef
 module.exports = {
-  siteName: "Gridsome",
+  siteName: "Aaron Choo",
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss",

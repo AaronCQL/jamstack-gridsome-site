@@ -26,7 +26,7 @@ export default {
     ContactSection,
   },
   metaInfo: {
-    title: "Aaron Choo | Student",
+    title: "AaronCQL",
   },
   computed: {
     isDarkMode() {
