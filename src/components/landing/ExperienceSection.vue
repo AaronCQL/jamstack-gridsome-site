@@ -12,7 +12,7 @@
     </div>
 
     <experience-section-entry
-      date="May 2020 - Present"
+      date="May 2020 - July 2020"
       title="Systems Engineer Intern"
     >
       <template v-slot:logo>
@@ -23,6 +23,8 @@
           class="w-20 object-contain"
         />
       </template>
+      Developed a MERN stack website (MongoDB/Express/Node/React), and
+      implemented two Chef recipes, to automate Visa's internal systems
     </experience-section-entry>
 
     <experience-section-entry

@@ -6,14 +6,11 @@
 
     <div>
       <p>
-        Hello! I am Aaron Choo, a third year student at the
+        Hello! I am Aaron Choo, a penultimate year student at the
         <styled-link href="https://www.comp.nus.edu.sg/programmes/ug/cs/">
           National University of Singapore (NUS)</styled-link
         >
-        majoring in Computer Science and graduating in May 2022. I am currently
-        undergoing an internship as a Systems Engineer at
-        <styled-link href="https://www.visa.com.sg/">Visa Inc.</styled-link>
-        under the Operations & Infrastructure team.
+        majoring in Computer Science and graduating in May 2022.
       </p>
       <p class="mt-4">
         I am deeply passionate about all things tech related, especially in
