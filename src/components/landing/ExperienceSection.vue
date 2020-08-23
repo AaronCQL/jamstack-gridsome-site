@@ -24,7 +24,7 @@
         />
       </template>
       Developed a MERN stack website (MongoDB/Express/Node/React), and
-      implemented two Chef recipes, to automate Visa's internal systems
+      implemented two Chef recipes, to automate Visa's internal systems.
     </experience-section-entry>
 
     <experience-section-entry
@@ -59,7 +59,7 @@
           class="w-48 object-contain"
         />
       </template>
-      Taught weekly tutorial sessions for CS1101S Programming Methodology I
+      Taught weekly tutorial sessions for CS1101S Programming Methodology I.
     </experience-section-entry>
   </div>
 </template>
