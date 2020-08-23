@@ -6,7 +6,7 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
       <project-section-entry
-        title="PixiesPixel (Game)"
+        title="PixiesPixel"
         :stack="['Godot', 'GDScript']"
         sourceCodeUrl="https://github.com/AaronCQL/PixiesPixel"
         demoUrl="https://github.com/AaronCQL/PixiesPixel/releases"
@@ -53,7 +53,7 @@
       </project-section-entry>
 
       <project-section-entry
-        title="Tree Secure (Mobile App)"
+        title="Tree Secure"
         :stack="['Flutter', 'Dart', 'Firebase']"
         sourceCodeUrl="https://github.com/AaronCQL/tree-secure"
         demoUrl="https://github.com/AaronCQL/tree-secure/releases"
