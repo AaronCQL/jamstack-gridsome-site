@@ -17,8 +17,9 @@
           platformer. Voted
           <styled-link
             href="https://credentials.nus.edu.sg/e472844a-d467-46b0-a6d8-7f5e399559df"
-            >runner up</styled-link
           >
+            runner up
+          </styled-link>
           (out of 243 teams) at NUS Orbital 2019.
         </p>
       </project-section-entry>
@@ -32,6 +33,22 @@
         <p>
           Personal collection of notes and cheatsheets made during my Computer
           Science course at NUS.
+        </p>
+      </project-section-entry>
+
+      <project-section-entry
+        title="Doconuxt"
+        :stack="['Vue', 'Nuxt.js', 'Tailwindcss']"
+        sourceCodeUrl="https://github.com/AaronCQL/doconuxt"
+        demoUrl="https://doconuxt.vercel.app/"
+      >
+        <p>
+          A
+          <styled-link href="https://content.nuxtjs.org/">
+            Nuxt Content
+          </styled-link>
+          powered static site generator for Markdown content. It is minimal,
+          opinionated, and comes with a default theme.
         </p>
       </project-section-entry>
 
@@ -58,19 +75,6 @@
           A web-based learning tool for CS2100. Tools include number base
           converter, IEEE 754 single-precision format converter, truth table
           generator, MIPS Architecture instruction encoder.
-        </p>
-      </project-section-entry>
-
-      <project-section-entry
-        title="Telegram Weather Bot"
-        :stack="['Python']"
-        sourceCodeUrl="https://github.com/AaronCQL/telegram-weather-man"
-        demoUrl="https://telegram.me/SgWeatherManBot"
-      >
-        <p>
-          A simple telegram bot that tells the current and forecast weather at
-          16 specific locations in Singapore. Built using Python in a day-long
-          hackathon at HackNTU 2019.
         </p>
       </project-section-entry>
 
