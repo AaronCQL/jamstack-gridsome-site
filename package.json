@@ -22,6 +22,7 @@
     "prettier": "^1.19.1",
     "typeface-gloria-hallelujah": "0.0.72",
     "typeface-josefin-sans": "0.0.75",
+    "typeface-open-sans": "0.0.75",
     "typeface-raleway": "0.0.75",
     "vue-scrollto": "^2.18.1"
   },
