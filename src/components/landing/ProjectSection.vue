@@ -37,6 +37,19 @@
       </project-section-entry>
 
       <project-section-entry
+        title="GitHub Math Display"
+        :stack="['JavaScript', 'Rollup.js', 'KaTeX']"
+        sourceCodeUrl="https://github.com/AaronCQL/katex-github-chrome-extension"
+        demoUrl="https://chrome.google.com/webstore/detail/github-math-display/cgolaobglebjonjiblcjagnpmdmlgmda"
+        repoApiUrl="https://api.github.com/repos/AaronCQL/katex-github-chrome-extension"
+      >
+        <p>
+          A Chrome extension to display LaTeX flavoured math in GitHub Markdown
+          previews.
+        </p>
+      </project-section-entry>
+
+      <project-section-entry
         title="Doconuxt"
         :stack="['Vue', 'Nuxt.js', 'Tailwindcss']"
         sourceCodeUrl="https://github.com/AaronCQL/doconuxt"
@@ -62,19 +75,6 @@
           A not-so-serious cross-platform mobile app to spread the awareness of
           the heritage trees in Singapore. Developed in 24 hours at NUS
           Hack&amp;Roll 2020.
-        </p>
-      </project-section-entry>
-
-      <project-section-entry
-        title="Computer Organisation Tool"
-        :stack="['HTML', 'CSS', 'JavaScript']"
-        sourceCodeUrl="https://github.com/AaronCQL/CS2100-tools"
-        demoUrl="https://aaroncql.github.io/CS2100-tools/"
-      >
-        <p>
-          A web-based learning tool for CS2100. Tools include number base
-          converter, IEEE 754 single-precision format converter, truth table
-          generator, MIPS Architecture instruction encoder.
         </p>
       </project-section-entry>
 

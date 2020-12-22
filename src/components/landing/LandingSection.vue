@@ -26,7 +26,7 @@
             class="text-2xl md:text-xl font-light"
           >
             <p>Computer Science Student</p>
-            <p>Systems Engineer Intern</p>
+            <p>Google Cloud Certified</p>
             <p>Teaching Assistant</p>
             <p>Private Tutor</p>
           </div>
