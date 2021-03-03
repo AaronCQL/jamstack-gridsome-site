@@ -7,7 +7,7 @@
     <div class="mb-6 text-lg">
       These are some of the companies I have had the privilege of working with.
       Refer to my
-      <styled-link href="/aaron-choo-resume.pdf">resume</styled-link>
+      <styled-link href="/aaron_choo_resume.pdf">resume</styled-link>
       for more information about what I had worked on.
     </div>
 
